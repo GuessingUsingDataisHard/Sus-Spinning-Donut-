@@ -32,7 +32,7 @@ def render_frame(A, B):
                 if ooz > zbuffer[xp][yp]:
                     zbuffer[xp][yp] = ooz
                     luminance_index = L*8
-                    char_output[xp][yp] = '.,-~:;=!*#$@'[int(luminance_index)]
+                    char_output[xp][yp] = 'sussussusඞඞඞ'[int(luminance_index)]
     print('\x1b[H')
     for i in range(screen_height):
         for j in range(screen_width):
